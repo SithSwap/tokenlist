@@ -3,22 +3,26 @@
 [![Tests](https://github.com/sithswap/tokenlist/workflows/Tests/badge.svg)](https://github.com/sithswap/tokenlist/actions?query=workflow%3ATests)
 [![npm](https://img.shields.io/npm/v/@sithswap/tokenlist)](https://unpkg.com/@sithswap/tokenlist@latest/)
 
-This NPM module and GitHub repo contains the default token list used in the SithSwap interface.
+This NPM module and GitHub repo contains the default token list used in the official SithSwap interface 🫳.
 
 ## Adding a token
 
 To request that we add a token to the list,
-[file an issue](https://github.com/sithswap/tokenlist/issues/new?assignees=&labels=token+request&template=token-request.md&title=Add+%7BTOKEN_SYMBOL%7D%3A+%7BTOKEN_NAME%7D).
+[open an issue](https://github.com/SithSwap/tokenlist/issues/new?assignees=0xSidius,0x25cfb68&labels=token-listing&template=token-listing.md&title=Add+%7BTOKEN_SYMBOL%7D%3A+%7BTOKEN_NAME%7D).
 
 ## Development
 
-Don't forget to run `yarn build` and add the `build` folder to your commit before you push your changes.
+### Build
+`yarn build` and don't forget to add the `build` folder to your commit.
+
+### Tests
+`yarn test`
 
 ## Disclaimer
 
 ##### Opening a PR does not guarantee addition to this default token list. 
 
-Some important considerations:
+##### Other important considerations:
 
 - We do not review token addition requests in any particular order.
 - We do not guarantee that we will review your request to add the token to the default list.
