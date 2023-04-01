@@ -1,7 +1,7 @@
 # SithSwap Tokenlist
 
-[![Tests](https://github.com/sithswap/tokenlist/workflows/Tests/badge.svg)](https://github.com/sithswap/tokenlist/actions?query=workflow%3ATests)
-[![npm](https://img.shields.io/npm/v/@sithswap/tokenlist)](https://unpkg.com/@sithswap/tokenlist@latest/)
+[![Tests](https://github.com/SithSwap/tokenlist/actions/workflows/build-test.yml/badge.svg)](https://github.com/SithSwap/tokenlist/actions/workflows/build-test.yml)
+[![npm](https://img.shields.io/npm/v/@sithswap/tokenlist)](https://www.npmjs.com/package/@sithswap/tokenlist)
 
 This NPM module and GitHub repo contains the default token list used in the official SithSwap interface 🫳.
 
