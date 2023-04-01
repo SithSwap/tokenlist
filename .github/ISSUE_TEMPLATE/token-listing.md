@@ -2,7 +2,7 @@
 name: Token listing
 about: Issue template to add new tokens
 title: 'Add {TOKEN_SYMBOL}: {TOKEN_NAME}'
-labels: ''
+labels: token-listing
 assignees: 0xSidius
 
 ---
