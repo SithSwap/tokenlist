@@ -5,9 +5,9 @@
 
 This NPM module and GitHub repo contains the default token list used in the official SithSwap interface 🫳.
 
-## Adding a token
+## Token listing
 
-To request that we add a token to the list,
+To request a new token listing, please
 [open an issue](https://github.com/SithSwap/tokenlist/issues/new?assignees=0xSidius,0x25cfb68&labels=token-listing&template=token-listing.md&title=Add+%7BTOKEN_SYMBOL%7D%3A+%7BTOKEN_NAME%7D).
 
 ## Development
