@@ -1,6 +1,6 @@
 .idea
 .env
 .DS_STORE
-.yarn-error.log
 
+dist
 node_modules

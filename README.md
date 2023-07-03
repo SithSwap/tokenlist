@@ -13,19 +13,21 @@ To request a new token listing, please
 ## Development
 
 ### Build
+
 `yarn build` and don't forget to add the `build` folder to your commit.
 
 ### Tests
+
 `yarn test`
 
 ## Disclaimer
 
-##### Opening a PR does not guarantee addition to this default token list. 
+##### Opening a PR does not guarantee addition to this default token list.
 
 ##### Other important considerations:
 
-- We do not review token addition requests in any particular order.
-- We do not guarantee that we will review your request to add the token to the default list.
-- We reserve the right to reject any token addition request for any reason.
-- We reserve the right to remove any token from the default list for any reason.
-- Token addition to the list does not imply endorsement of the token/project.
+-   We do not review token addition requests in any particular order.
+-   We do not guarantee that we will review your request to add the token to the default list.
+-   We reserve the right to reject any token addition request for any reason.
+-   We reserve the right to remove any token from the default list for any reason.
+-   Token addition to the list does not imply endorsement of the token/project.

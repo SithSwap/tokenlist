@@ -1,0 +1,26 @@
+<svg width="200" height="200" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="gradient-token-obsidian-unknown-a" x1="13.617" y1="5.27" x2="11.692" y2="19.266"
+            gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#680d0d" />
+            <stop offset="0.141" stop-color="#831214" />
+            <stop offset="0.489" stop-color="#c11e25" />
+            <stop offset="0.654" stop-color="#d9232b" />
+            <stop offset="0.83" stop-color="#fc4015" />
+            <stop offset="0.989" stop-color="#ff6c22" />
+        </linearGradient>
+        <linearGradient id="gradient-token-obsidian-unknown-b" href="#gradient-token-obsidian-unknown-a" x1="10.545"
+            y1="4.848" x2="8.621" y2="18.844" />
+    </defs>
+    <polygon fill="#300404"
+        points="25.5 23.364 25.5 23.634 25.47 23.664 12.87 13.034 12.68 12.874 0.25 2.384 0.25 2.114 0.28 2.084 12.88 12.714 13.07 12.874 25.5 23.364" />
+    <polygon fill="#300404"
+        points="25.5 2.114 25.5 2.384 13.07 12.874 12.87 13.034 0.28 23.664 0.25 23.634 0.25 23.364 12.68 12.874 12.88 12.714 25.47 2.084 25.5 2.114" />
+    <path fill="url(#gradient-token-obsidian-unknown-a)"
+        d="M21.066,6.828l-2.051,6.093H12.274l-.057.17-.878,2.615H8l1.4-4.157h6.735l.057-.17L16.962,9.1l.112-.33H5.472l.654-1.945h14.94m.348-.25H5.946L5.124,9.023h11.6L15.956,11.3H9.221L7.65,15.956h3.869l.935-2.785h6.74l2.22-6.593Z" />
+    <path fill="url(#gradient-token-obsidian-unknown-b)"
+        d="M10.524,18.136l-.449,1.338H6.728l.45-1.338h3.346m.348-.25H7v.008l-.617,1.83h3.874l.617-1.838Z" />
+    <polygon points="10.531 18.133 10.082 19.473 6.732 19.473 7.182 18.133 10.531 18.133" />
+    <polygon
+        points="21.072 6.833 19.022 12.923 12.272 12.923 12.222 13.093 11.342 15.703 8.002 15.703 9.402 11.553 16.142 11.553 16.192 11.383 16.962 9.103 17.072 8.773 5.472 8.773 6.132 6.833 21.072 6.833" />
+</svg>

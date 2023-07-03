@@ -1,0 +1,11 @@
+{
+	"name": "Tether USD",
+	"symbol": "USDT",
+	"decimals": 6,
+	"address": {
+		"0x534e5f4d41494e": "0x068f5c6a61780768455de69077e07e89787839bf8166decfbf92b645209c0fb8",
+		"0x534e5f474f45524c49": "0x386e8d061177f19b3b485c20e31137e6f6bc497cc635ccdfcab96fadf5add6a"
+	},
+	"logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+	"tags": []
+}

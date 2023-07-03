@@ -1,0 +1,8 @@
+{
+	"name": "MockToken 4",
+	"symbol": "MOCK4",
+	"decimals": 18,
+	"address": {
+		"0x534e5f474f45524c49": "0x722df8eb84b319fe54bcee1e566d978c3299ab9f20eb80aa4083c62135296de"
+	}
+}

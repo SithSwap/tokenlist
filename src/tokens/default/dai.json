@@ -1,0 +1,11 @@
+{
+	"name": "Dai Stablecoin",
+	"symbol": "DAI",
+	"decimals": 18,
+	"address": {
+		"0x534e5f4d41494e": "0x00da114221cb83fa859dbdb4c44beeaa0bb37c7537ad5ae66fe5e0efd20e6eb3",
+		"0x534e5f474f45524c49": "0x03e85bfbb8e2a42b7bead9e88e9a1b19dbccf661471061807292120462396ec9"
+	},
+	"logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png",
+	"tags": []
+}
