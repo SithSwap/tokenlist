@@ -1,5 +1,5 @@
-import type { Version } from '$src/utilities/version.js';
 import type { ChainID } from 'ministark/network';
+import type { Version } from '$src/utilities/version.js';
 
 import fs from 'fs/promises';
 import path from 'path';

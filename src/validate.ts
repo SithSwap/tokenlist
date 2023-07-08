@@ -1,5 +1,5 @@
 import AJVModule from 'ajv';
-import schema from '$src/tokenlist.schema.json';
+import schema from '$src/tokenlist.schema.json' assert { type: 'json' };
 import type { TokenList } from '$src/schema.js';
 
 const isTokenList = new AJVModule.default({
