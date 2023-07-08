@@ -1,9 +1,10 @@
+import type { Version } from '$src/utilities/version.js';
+import type { ChainID } from 'ministark/network';
+
 import fs from 'fs/promises';
 import path from 'path';
 import fg from 'fast-glob';
 import { checksum } from 'ministark/address';
-import type { Version } from '$src/utilities/version.js';
-import type { ChainID } from 'ministark';
 
 type SourceToken = {
 	name: string;
@@ -19,7 +20,7 @@ type OutputToken = {
 	symbol: string;
 	decimals: number;
 	address: string;
-	chainId: Enumerate<ChainID>;
+	chainId: ChainID;
 	logoURI?: string;
 	tags?: string[];
 };
@@ -28,7 +29,7 @@ async function toToken(file: string) {
 	const token: SourceToken = await fs.readFile(file, 'utf-8').then(JSON.parse);
 
 	const output = new Array<OutputToken>();
-	const chains: Enumerate<ChainID>[] = ['0x534e5f474f45524c49', '0x534e5f4d41494e'];
+	const chains: ChainID[] = ['0x534e5f474f45524c49', '0x534e5f4d41494e'];
 	for (const chainId of chains) {
 		const address = token.address[chainId];
 		if (!address) continue;

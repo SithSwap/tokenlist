@@ -1,6 +1,6 @@
-import { toHTTPs } from './utilities/string.js';
-import { ChainID } from 'ministark';
-import { download, parse } from './index.js';
+import { toHTTPs } from '$src/utilities/string.js';
+import { ChainID } from 'ministark/network';
+import { download, parse } from '$src/list.js';
 
 const originalFetch = globalThis.fetch;
 

@@ -13,7 +13,7 @@
 		"lib": ["ESNext", "DOM"],
 		"types": ["vitest/globals"],
 		"module": "ESNext",
-		"moduleResolution": "Bundler",
+		"moduleResolution": "NodeNext",
 		"declaration": true,
 		"outDir": "./dist",
 		"paths": {

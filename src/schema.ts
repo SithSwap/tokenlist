@@ -1,32 +1,26 @@
-import { schema as base } from '@uniswap/token-lists';
+import type { HexString } from '$src/types.js';
+import type { Version } from '$src/utilities/version.js';
 
-type BaseType = typeof base;
+import { ChainID } from 'ministark/network';
 
-export type Schema = Omit<BaseType, 'definitions'> & {
-	definitions: Omit<BaseType['definitions'], 'TokenInfo'> & {
-		TokenInfo: Omit<BaseType['definitions']['TokenInfo'], 'properties'> & {
-			properties: Omit<BaseType['definitions']['TokenInfo']['properties'], 'chainId'> & {
-				chainId: {
-					type: string;
-					description: string;
-					examples: string[];
-				};
-			};
-		};
-	};
-};
+export type TokenInfo = Readonly<{
+	chainId: ChainID;
+	address: HexString;
+	name: string;
+	decimals: number;
+	symbol: string;
+	logoURI?: string;
+	tags?: string[];
+}>;
 
-const schema = structuredClone(base) as unknown as Schema;
+export type Tags = Readonly<Record<string, Readonly<{ name: string; description: string }>>>;
 
-schema.definitions.TokenInfo.properties.chainId = {
-	type: 'string',
-	description: 'The chain ID of the Starknet network where this token is deployed',
-	examples: ['0x534e5f4d41494e']
-};
-
-schema.definitions.TokenInfo.properties.address.pattern = '^0x[a-fA-F0-9]{40,}$';
-schema.$id = 'https://sithswap.xyz/tokenlist.schema.json';
-schema.title = 'SithSwap Token List';
-schema.description = 'Schema for token lists compatible with the official SithSwap interface';
-
-export default schema;
+export type TokenList = Readonly<{
+	name: string;
+	timestamp: string;
+	version: Version;
+	tokens: TokenInfo[];
+	keywords?: string[];
+	tags?: Tags;
+	logoURI?: string;
+}>;

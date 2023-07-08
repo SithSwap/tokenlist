@@ -1,7 +1,8 @@
 import AJVModule from 'ajv';
-import schema from './schema.js';
+import schema from '$src/tokenlist.schema.json';
+import type { TokenList } from '$src/schema.js';
 
-const isTokenList = new AJVModule({
+const isTokenList = new AJVModule.default({
 	allErrors: true,
 	verbose: true,
 	allowUnionTypes: true,
@@ -19,6 +20,6 @@ const isTokenList = new AJVModule({
 		},
 		uri: /^(?:[a-z][a-z0-9+\-.]*:)(?:\/?\/)?[^\s]*$/
 	}
-}).compile<typeof schema>(schema);
+}).compile<TokenList>(schema);
 
 export default isTokenList;

@@ -3,7 +3,6 @@ import { fileURLToPath } from 'url';
 import generateLists from './list.js';
 import generateLogos from './logos.js';
 import { parse } from '$src/utilities/version.js';
-import schema from '$src/schema.js';
 
 function path(file: string) {
 	return fileURLToPath(new URL(file, import.meta.url));
@@ -15,5 +14,3 @@ const { version = '0.0.0' } = await fs.readFile(path('../package.json'), 'utf-8'
 
 generateLists(path('./tokens'), path(`${output}`), parse(version));
 generateLogos(path('./logos'), path(`${output}/logos`));
-
-fs.writeFile(path(`${output}tokenlist.schema.json`), JSON.stringify(schema, null, 2));
