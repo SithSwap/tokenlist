@@ -6,6 +6,5 @@
 		"0x534e5f4d41494e": "0x03fe2b97c1fd336e750087d68b9b867997fd64a2661ff3ca5a7c771641e8e7ac",
 		"0x534e5f474f45524c49": "0x12d537dc323c439dc65c976fad242d5610d27cfb5f31689a0a319b8be7f3d56"
 	},
-	"logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png",
-	"tags": []
+	"logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png"
 }

@@ -12,6 +12,7 @@ const Lists = [DefaultList, MockList];
 describe('Validate Generated List', () => {
 	it('validates', () => {
 		for (const list of Lists) {
+			console.log(isTokenList(list), isTokenList);
 			expect(isTokenList(list)).toEqual(true);
 		}
 	});

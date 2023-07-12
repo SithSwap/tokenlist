@@ -5,7 +5,5 @@
 	"address": {
 		"0x534e5f4d41494e": "0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7",
 		"0x534e5f474f45524c49": "0x049d36570d4e46f48e99674bd3fcc84644ddd6b96f7c741b1562b82f9e004dc7"
-	},
-	"logoURI": "ipfs://",
-	"tags": []
+	}
 }
