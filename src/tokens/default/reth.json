@@ -1,0 +1,10 @@
+{
+	"name": "Rocket Pool ETH",
+	"symbol": "rETH",
+	"decimals": 18,
+	"address": {
+		"0x534e5f4d41494e": "0x0319111a5037cbec2b3e638cc34a3474e2d2608299f3e62866e9cc683208c610"
+	},
+	"logoURI": "",
+	"tags": []
+}
