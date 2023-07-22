@@ -1,0 +1,8 @@
+{
+	"name": "Wrapped Liquid Staked Ether 2.0",
+	"symbol": "wstETH",
+	"decimals": 18,
+    "address": {
+		"0x534e5f4d41494e": "0x42b8f0484674ca266ac5d08e4ac6a3fe65bd3129795def2dca5c34ecc5f96d2"
+	}
+}
