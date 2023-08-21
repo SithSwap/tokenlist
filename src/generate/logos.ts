@@ -80,7 +80,8 @@ async function generate(from: string, to: string, folder: string) {
 	const { data: optimized } = optimize(compiled.symbol.sprite.contents, SVGOConfig);
 
 	await fs.writeFile(path.join(to, `${folder}.svg`), optimized);
-	if (Object.keys(info).length) await fs.writeFile(path.join(to, `${folder}.json`), JSON.stringify(info, null, 2));
+	if (Object.keys(info).length)
+		await fs.writeFile(path.join(to, `${folder}.json`), JSON.stringify(info, null, 2));
 }
 
 export default async function (from: string, to: string) {
