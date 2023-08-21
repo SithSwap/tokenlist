@@ -1,0 +1,22 @@
+{
+	"aave.svg": { "symbol": "AAVE", "id": "token-obsidian-aave", "color": "#b6509e" },
+	"dai.svg": { "symbol": "DAI", "id": "token-obsidian-dai", "color": "#efab26" },
+	"eth.svg": { "symbol": "ETH", "id": "token-obsidian-eth", "color": "#ddd" },
+	"jedi.svg": { "symbol": "JEDI", "id": "token-obsidian-jedi", "color": "#cf5ed4" },
+	"link.svg": { "symbol": "LINK", "id": "token-obsidian-link", "color": "#375bd2" },
+	"sith.svg": { "symbol": "SITH", "id": "token-obsidian-sith", "color": "#595593" },
+	"strk.svg": { "symbol": "STRK", "id": "token-obsidian-strk", "color": "#29296e" },
+	"usdt.svg": { "symbol": "USDT", "id": "token-obsidian-usdt", "color": "#5eaf95" },
+	"usdc.svg": { "symbol": "USDC", "id": "token-obsidian-usdc", "color": "#3976cd" },
+	"wbtc.svg": { "symbol": "WBTC", "id": "token-obsidian-wbtc", "color": "#e99138" },
+	"xsith.svg": { "symbol": "XSITH", "id": "token-obsidian-xsith", "color": "#58506f" },
+	"lords.svg": { "symbol": "LORDS", "id": "token-obsidian-lords", "color": "#fff" },
+	"reth.svg": { "symbol": "rETH", "id": "token-obsidian-reth", "color": "#F04B36" },
+	"wsteth.svg": { "symbol": "wstETH", "id": "token-obsidian-wsteth", "color": "#00A3FF" },
+	"mock1.svg": { "symbol": "MOCK1", "id": "token-obsidian-mock-1", "color": "#777996" },
+	"mock2.svg": { "symbol": "MOCK2", "id": "token-obsidian-mock-2", "color": "#777996" },
+	"mock3.svg": { "symbol": "MOCK3", "id": "token-obsidian-mock-3", "color": "#777996" },
+	"mock4.svg": { "symbol": "MOCK4", "id": "token-obsidian-mock-4", "color": "#777996" },
+	"unknown.svg": { "symbol": "Unknown", "id": "token-obsidian-unknown", "color": "#600706" },
+	"rn.svg": { "symbol": "RN", "id": "token-obsidian-rn", "color": "#fff" }
+}
