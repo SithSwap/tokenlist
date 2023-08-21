@@ -1,0 +1,8 @@
+{
+	"name": "Raum Network Token",
+	"symbol": "RN",
+	"decimals": 18,
+	"address": {
+		"0x534e5f4d41494e": "0x054f20994579087ecae673f3904d7ffd433707ddd6c658743901b1805cc62929"
+	}
+}
