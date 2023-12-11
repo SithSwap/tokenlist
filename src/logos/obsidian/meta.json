@@ -18,5 +18,7 @@
 	"mock3.svg": { "symbol": "MOCK3", "id": "token-obsidian-mock-3", "color": "#777996" },
 	"mock4.svg": { "symbol": "MOCK4", "id": "token-obsidian-mock-4", "color": "#777996" },
 	"unknown.svg": { "symbol": "Unknown", "id": "token-obsidian-unknown", "color": "#600706" },
-	"rn.svg": { "symbol": "RN", "id": "token-obsidian-rn", "color": "#fff" }
+	"rn.svg": { "symbol": "RN", "id": "token-obsidian-rn", "color": "#fff" },
+	"lusd.svg": { "symbol": "LUSD", "id": "token-obsidian-lusd", "color": "#ddd" }
+
 }

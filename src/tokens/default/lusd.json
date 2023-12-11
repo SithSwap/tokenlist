@@ -1,0 +1,8 @@
+{
+	"name": "LUSD Stablecoin",
+	"symbol": "LUSD",
+	"decimals": 18,
+	"address": {
+		"0x534e5f4d41494e": "0x070a76fd48ca0ef910631754d77dd822147fe98a569b826ec85e3c33fde586ac"
+	}
+}
