@@ -23,6 +23,7 @@
 	"frax.svg": { "symbol": "FRAX", "id": "token-obsidian-frax", "color": "#fff" },
 	"fxs.svg": { "symbol": "FXS", "id": "token-obsidian-fxs", "color": "#fff" },
 	"sfrxeth.svg": { "symbol": "sfrxETH", "id": "token-obsidian-sfrxeth", "color": "#fff" },
-	"uni.svg": { "symbol": "UNI", "id": "token-obsidian-uni", "color": "#ff007aff" }
+	"uni.svg": { "symbol": "UNI", "id": "token-obsidian-uni", "color": "#ff007aff" },
+	"anb.svg": { "symbol": "ANB", "id": "token-obsidian-anb", "color": "#febe01ff" }
 
 }
