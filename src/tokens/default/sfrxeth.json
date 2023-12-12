@@ -1,0 +1,8 @@
+{
+	"name": "Staked Frax Ether",
+	"symbol": "sfrxETH",
+	"decimals": 18,
+	"address": {
+		"0x534e5f4d41494e": "0x04578fffc279e61b5cb0267a5f8e24b6089d40f93158fbbad2cb23b8622c9233"
+	}
+}

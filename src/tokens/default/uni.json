@@ -1,0 +1,8 @@
+{
+	"name": "Uniswap",
+	"symbol": "UNI",
+	"decimals": 18,
+	"address": {
+		"0x534e5f4d41494e": "0x049210ffc442172463f3177147c1aeaa36c51d152c1b0630f2364c300d4f48ee"
+	}
+}
