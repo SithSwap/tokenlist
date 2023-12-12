@@ -21,8 +21,8 @@
 	"rn.svg": { "symbol": "RN", "id": "token-obsidian-rn", "color": "#fff" },
 	"lusd.svg": { "symbol": "LUSD", "id": "token-obsidian-lusd", "color": "#2320f0" },
 	"frax.svg": { "symbol": "FRAX", "id": "token-obsidian-frax", "color": "#fff" },
-	"fxs.svg": { "symbol": "FXS", "id": "token-obsidian-fxs", "color": "#fff" },	
-	"uni.svg": { "symbol": "uni", "id": "token-obsidian-uni", "color": "#fff" },
-	"sfrxeth.svg": { "symbol": "sfrxETH", "id": "token-obsidian-sfrxeth", "color": "#fff" }
+	"fxs.svg": { "symbol": "FXS", "id": "token-obsidian-fxs", "color": "#fff" },
+	"sfrxeth.svg": { "symbol": "sfrxETH", "id": "token-obsidian-sfrxeth", "color": "#fff" },
+	"uni.svg": { "symbol": "UNI", "id": "token-obsidian-uni", "color": "#ff007aff" }
 
 }
