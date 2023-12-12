@@ -1,0 +1,8 @@
+{
+	"name": "Frax",
+	"symbol": "FRAX",
+	"decimals": 18,
+	"address": {
+		"0x534e5f4d41494e": "0x009c6b4fb13dfaa025c1383ed6190af8ed8cbb09d9588a3bb020feb152442406"
+	}
+}

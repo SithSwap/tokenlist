@@ -1,0 +1,8 @@
+{
+	"name": "Frax Share",
+	"symbol": "FXS",
+	"decimals": 18,
+	"address": {
+		"0x534e5f4d41494e": "0x0058efd0e73c33a848ffaa88738d128ebf0af98ea78cf3c14dc757bb02d39ffb"
+	}
+}
