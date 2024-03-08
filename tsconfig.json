@@ -12,7 +12,7 @@
 		"target": "ESNext",
 		"lib": ["ESNext", "DOM"],
 		"types": ["vitest/globals"],
-		"module": "ESNext",
+		"module": "NodeNext",
 		"moduleResolution": "NodeNext",
 		"declaration": true,
 		"outDir": "./dist",
